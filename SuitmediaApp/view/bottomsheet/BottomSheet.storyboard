@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Bottom Sheet View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="bottomSheet" id="Y6W-OH-hqX" customClass="BottomSheetViewController" customModule="SuitmediaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageperson" translatesAutoresizingMaskIntoConstraints="NO" id="hiy-w1-d61">
+                                <rect key="frame" x="125" y="64" width="164" height="164"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="164" id="68J-qL-V5E"/>
+                                    <constraint firstAttribute="height" constant="164" id="9Eu-Hl-b3Q"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dGa-0X-tSt">
+                                <rect key="frame" x="20" y="248" width="374" height="24"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7oR-hf-Iib">
+                                <rect key="frame" x="20" y="292" width="374" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="629-JL-PM1"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Select">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonSelectPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="15x-H1-eSx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hiy-w1-d61" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="5f9-v7-EcT"/>
+                            <constraint firstItem="dGa-0X-tSt" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="6Dd-ie-XZp"/>
+                            <constraint firstItem="7oR-hf-Iib" firstAttribute="top" secondItem="dGa-0X-tSt" secondAttribute="bottom" constant="20" id="7wH-wd-67t"/>
+                            <constraint firstItem="dGa-0X-tSt" firstAttribute="top" secondItem="hiy-w1-d61" secondAttribute="bottom" constant="20" id="Mkz-kc-XEw"/>
+                            <constraint firstItem="hiy-w1-d61" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="125" id="cZD-WF-cOt"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="hiy-w1-d61" secondAttribute="trailing" constant="125" id="niZ-AE-Mkt"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="dGa-0X-tSt" secondAttribute="trailing" constant="20" id="s6u-R0-4J7"/>
+                            <constraint firstItem="7oR-hf-Iib" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="wqR-gH-ygG"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="7oR-hf-Iib" secondAttribute="trailing" constant="20" id="zMh-L7-dEO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imagePicture" destination="hiy-w1-d61" id="tsH-lq-qLM"/>
+                        <outlet property="nameUser" destination="dGa-0X-tSt" id="8fL-Wm-K9v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23" y="79"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="imageperson" width="656" height="656"/>
+    </resources>
+</document>

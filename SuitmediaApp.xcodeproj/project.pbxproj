@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C041C89B280C6F6E00E00418 /* CustomPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C041C89A280C6F6E00E00418 /* CustomPointAnnotation.swift */; };
+		C041C8A3280C759600E00418 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C041C8A1280C759600E00418 /* BottomSheetViewController.swift */; };
+		C041C8A6280C75FE00E00418 /* BottomSheet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C041C8A5280C75FE00E00418 /* BottomSheet.storyboard */; };
 		C077D1B1280BC6AE00950884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077D1B0280BC6AE00950884 /* AppDelegate.swift */; };
 		C077D1B3280BC6AE00950884 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077D1B2280BC6AE00950884 /* SceneDelegate.swift */; };
 		C077D1B5280BC6AE00950884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077D1B4280BC6AE00950884 /* ViewController.swift */; };
 		C077D1B8280BC6AE00950884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C077D1B6280BC6AE00950884 /* Main.storyboard */; };
 		C077D1BA280BC6AF00950884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C077D1B9280BC6AF00950884 /* Assets.xcassets */; };
 		C077D1BD280BC6AF00950884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C077D1BB280BC6AF00950884 /* LaunchScreen.storyboard */; };
+		C077D1CA280BC70400950884 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077D1C8280BC70400950884 /* HomeScreenViewController.swift */; };
+		C077D1D3280BC76000950884 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077D1D1280BC76000950884 /* UserListViewController.swift */; };
+		C077D1DD280BC7AD00950884 /* WebVIewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077D1DB280BC7AD00950884 /* WebVIewViewController.swift */; };
+		C077D1E0280BC80600950884 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077D1DF280BC80600950884 /* Users.swift */; };
+		C077D1E2280BD9B100950884 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C077D1E1280BD9B100950884 /* Home.storyboard */; };
+		C077D1E4280BD9C300950884 /* Users.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C077D1E3280BD9C300950884 /* Users.storyboard */; };
+		C077D1E8280BD9E600950884 /* WebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C077D1E7280BD9E600950884 /* WebView.storyboard */; };
+		C077D1EE280BE41B00950884 /* UsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077D1EC280BE41B00950884 /* UsersTableViewCell.swift */; };
+		C077D1EF280BE41B00950884 /* UsersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C077D1ED280BE41B00950884 /* UsersTableViewCell.xib */; };
+		C077D1F1280BE71500950884 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077D1F0280BE71500950884 /* UsersViewModel.swift */; };
+		C077D1F3280BE7DB00950884 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077D1F2280BE7DB00950884 /* ApiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C041C89A280C6F6E00E00418 /* CustomPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPointAnnotation.swift; sourceTree = "<group>"; };
+		C041C8A1280C759600E00418 /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
+		C041C8A5280C75FE00E00418 /* BottomSheet.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BottomSheet.storyboard; sourceTree = "<group>"; };
 		C077D1AD280BC6AE00950884 /* SuitmediaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuitmediaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C077D1B0280BC6AE00950884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C077D1B2280BC6AE00950884 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,17 @@
 		C077D1B9280BC6AF00950884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C077D1BC280BC6AF00950884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C077D1BE280BC6AF00950884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C077D1C8280BC70400950884 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		C077D1D1280BC76000950884 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		C077D1DB280BC7AD00950884 /* WebVIewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVIewViewController.swift; sourceTree = "<group>"; };
+		C077D1DF280BC80600950884 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		C077D1E1280BD9B100950884 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		C077D1E3280BD9C300950884 /* Users.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Users.storyboard; sourceTree = "<group>"; };
+		C077D1E7280BD9E600950884 /* WebView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WebView.storyboard; sourceTree = "<group>"; };
+		C077D1EC280BE41B00950884 /* UsersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewCell.swift; sourceTree = "<group>"; };
+		C077D1ED280BE41B00950884 /* UsersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersTableViewCell.xib; sourceTree = "<group>"; };
+		C077D1F0280BE71500950884 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		C077D1F2280BE7DB00950884 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C041C8A0280C756700E00418 /* bottomsheet */ = {
+			isa = PBXGroup;
+			children = (
+				C041C8A1280C759600E00418 /* BottomSheetViewController.swift */,
+				C041C8A5280C75FE00E00418 /* BottomSheet.storyboard */,
+			);
+			path = bottomsheet;
+			sourceTree = "<group>";
+		};
 		C077D1A4280BC6AE00950884 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +93,10 @@
 		C077D1AF280BC6AE00950884 /* SuitmediaApp */ = {
 			isa = PBXGroup;
 			children = (
+				C077D1C7280BC6D900950884 /* viewmodel */,
+				C077D1C6280BC6D400950884 /* service */,
+				C077D1C5280BC6CD00950884 /* view */,
+				C077D1C4280BC6C600950884 /* model */,
 				C077D1B0280BC6AE00950884 /* AppDelegate.swift */,
 				C077D1B2280BC6AE00950884 /* SceneDelegate.swift */,
 				C077D1B4280BC6AE00950884 /* ViewController.swift */,
@@ -63,8 +104,81 @@
 				C077D1B9280BC6AF00950884 /* Assets.xcassets */,
 				C077D1BB280BC6AF00950884 /* LaunchScreen.storyboard */,
 				C077D1BE280BC6AF00950884 /* Info.plist */,
+				C041C89A280C6F6E00E00418 /* CustomPointAnnotation.swift */,
 			);
 			path = SuitmediaApp;
+			sourceTree = "<group>";
+		};
+		C077D1C4280BC6C600950884 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C077D1DF280BC80600950884 /* Users.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C077D1C5280BC6CD00950884 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C041C8A0280C756700E00418 /* bottomsheet */,
+				C077D1E9280BE3E900950884 /* cell */,
+				C077D1DA280BC79900950884 /* webview */,
+				C077D1CE280BC73D00950884 /* userlist */,
+				C077D1CD280BC72E00950884 /* home */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C077D1C6280BC6D400950884 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				C077D1F2280BE7DB00950884 /* ApiService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		C077D1C7280BC6D900950884 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				C077D1F0280BE71500950884 /* UsersViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		C077D1CD280BC72E00950884 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				C077D1C8280BC70400950884 /* HomeScreenViewController.swift */,
+				C077D1E1280BD9B100950884 /* Home.storyboard */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		C077D1CE280BC73D00950884 /* userlist */ = {
+			isa = PBXGroup;
+			children = (
+				C077D1D1280BC76000950884 /* UserListViewController.swift */,
+				C077D1E3280BD9C300950884 /* Users.storyboard */,
+			);
+			path = userlist;
+			sourceTree = "<group>";
+		};
+		C077D1DA280BC79900950884 /* webview */ = {
+			isa = PBXGroup;
+			children = (
+				C077D1DB280BC7AD00950884 /* WebVIewViewController.swift */,
+				C077D1E7280BD9E600950884 /* WebView.storyboard */,
+			);
+			path = webview;
+			sourceTree = "<group>";
+		};
+		C077D1E9280BE3E900950884 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				C077D1EC280BE41B00950884 /* UsersTableViewCell.swift */,
+				C077D1ED280BE41B00950884 /* UsersTableViewCell.xib */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +239,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C077D1E4280BD9C300950884 /* Users.storyboard in Resources */,
+				C077D1E2280BD9B100950884 /* Home.storyboard in Resources */,
 				C077D1BD280BC6AF00950884 /* LaunchScreen.storyboard in Resources */,
+				C041C8A6280C75FE00E00418 /* BottomSheet.storyboard in Resources */,
+				C077D1E8280BD9E600950884 /* WebView.storyboard in Resources */,
+				C077D1EF280BE41B00950884 /* UsersTableViewCell.xib in Resources */,
 				C077D1BA280BC6AF00950884 /* Assets.xcassets in Resources */,
 				C077D1B8280BC6AE00950884 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +257,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C077D1E0280BC80600950884 /* Users.swift in Sources */,
+				C077D1D3280BC76000950884 /* UserListViewController.swift in Sources */,
 				C077D1B5280BC6AE00950884 /* ViewController.swift in Sources */,
+				C077D1CA280BC70400950884 /* HomeScreenViewController.swift in Sources */,
 				C077D1B1280BC6AE00950884 /* AppDelegate.swift in Sources */,
+				C077D1F3280BE7DB00950884 /* ApiService.swift in Sources */,
+				C077D1DD280BC7AD00950884 /* WebVIewViewController.swift in Sources */,
+				C041C8A3280C759600E00418 /* BottomSheetViewController.swift in Sources */,
+				C077D1EE280BE41B00950884 /* UsersTableViewCell.swift in Sources */,
 				C077D1B3280BC6AE00950884 /* SceneDelegate.swift in Sources */,
+				C041C89B280C6F6E00E00418 /* CustomPointAnnotation.swift in Sources */,
+				C077D1F1280BE71500950884 /* UsersViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J7K2J83XY8;
@@ -332,6 +461,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = gilang.SuitmediaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
