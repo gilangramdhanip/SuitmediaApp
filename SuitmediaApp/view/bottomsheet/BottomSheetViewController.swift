@@ -21,11 +21,6 @@ class BottomSheetViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         nameUser.text = nama
-        
-        imagePicture.layer.masksToBounds = false
-        imagePicture.layer.cornerRadius = imagePicture.frame.height/2
-        imagePicture.clipsToBounds = true
-        
         let config = URLSessionConfiguration.default
         let session = URLSession(configuration: config)
         if let url = NSURL(string: image!){

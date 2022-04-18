@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -39,7 +38,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vPe-T7-Ddh">
                                                 <rect key="frame" x="41" y="452" width="308" height="31"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="NEXT"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="NEXT">
+                                                    <color key="baseBackgroundColor" red="0.16862745100000001" green="0.38823529410000002" blue="0.4823529412" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="goToHomePage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wiP-sj-qnY"/>
                                                 </connections>
@@ -47,7 +48,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbh-dJ-eyY">
                                                 <rect key="frame" x="41" y="401" width="308" height="31"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="CHECK"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="CHECK">
+                                                    <color key="baseBackgroundColor" red="0.16862745100000001" green="0.38823529410000002" blue="0.4823529412" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </buttonConfiguration>
                                                 <connections>
                                                     <action selector="checkisPalindrome:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k8k-HL-ZXV"/>
                                                 </connections>
@@ -56,7 +59,7 @@
                                                 <rect key="frame" x="20" y="100" width="350" height="116"/>
                                             </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                        <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="vPe-T7-Ddh" firstAttribute="top" secondItem="pbh-dJ-eyY" secondAttribute="bottom" constant="20" id="0Yw-07-dy8"/>
                                             <constraint firstItem="2E7-dk-BLe" firstAttribute="top" secondItem="iBd-RI-xVJ" secondAttribute="top" constant="100" id="4N8-We-Oqf"/>
@@ -89,7 +92,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.81435159661553125" green="0.52330390907648805" blue="0.19402219137018872" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.81568627450980391" green="0.52156862745098043" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="JHT-QH-6dT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="4Co-z2-f6a"/>
                             <constraint firstItem="JHT-QH-6dT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gRV-kp-CvW"/>
@@ -112,8 +115,5 @@
     </scenes>
     <resources>
         <image name="ic_photo" width="116" height="116"/>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
     </resources>
 </document>

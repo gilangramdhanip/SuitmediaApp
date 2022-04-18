@@ -36,10 +36,6 @@ class HomeScreenViewController: UIViewController {
                             emailUser.text = notification.userInfo?["emailUser"] as? String
         
         
-        imageProfile.layer.masksToBounds = false
-        imageProfile.layer.cornerRadius = imageProfile.frame.height/2
-        imageProfile.clipsToBounds = true
-        
         let config = URLSessionConfiguration.default
         let session = URLSession(configuration: config)
         if let url = NSURL(string: (notification.userInfo?["imageProfile"] as? String) ?? ""){

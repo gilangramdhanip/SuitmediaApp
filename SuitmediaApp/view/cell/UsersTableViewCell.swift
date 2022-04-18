@@ -29,10 +29,6 @@ class UsersTableViewCell: UITableViewCell {
         nameLabel.text = "\(dataUsers.firstName) \(dataUsers.lastName)"
         emailLabel.text = dataUsers.email
         
-        imagePicture.layer.masksToBounds = false
-        imagePicture.layer.cornerRadius = imagePicture.frame.height/2
-        imagePicture.clipsToBounds = true
-        
         let config = URLSessionConfiguration.default
         let session = URLSession(configuration: config)
         if let url = NSURL(string: dataUsers.avatar){
